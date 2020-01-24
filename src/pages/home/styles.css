@@ -1,0 +1,25 @@
+.container-home{   
+    min-height: 100vh !important;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-areas:
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+    
+}
+
+@media (max-width: 1220px){
+    .container-home{
+        
+        grid-template-columns: auto auto auto auto;
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer";
+    }
+}
+

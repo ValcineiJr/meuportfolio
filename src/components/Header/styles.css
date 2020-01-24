@@ -1,0 +1,27 @@
+header{
+    grid-area: header;
+    background: rgb(15, 67, 88);
+    height: 60px;    
+    margin-bottom: 60px;
+    width: 100% !important;
+    position: relative;
+    z-index: 999;
+}
+
+main p.legend {
+    font-size: 20px !important;
+}
+
+header .bg-dark{
+    background: rgb(15, 67, 88) !important;
+}
+.navbar-default .navbar-toggle .navbar-toggler-icon {
+    background-color: white !important;
+}
+.menu a {
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin-right: 10px;
+
+}
